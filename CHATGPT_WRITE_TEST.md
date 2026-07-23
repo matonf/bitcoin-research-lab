@@ -1,0 +1,1 @@
+If this file exists, ChatGPT has write access.
