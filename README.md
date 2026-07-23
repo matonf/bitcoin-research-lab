@@ -1,16 +1,25 @@
+# Bitcoin Research Lab
 
-« Je veux savoir quel modèle du Bitcoin est le plus fiable. »
+Bitcoin Research Lab is an open-source research project dedicated to reproducing, validating and comparing mathematical models of the Bitcoin price.
 
-Et que la réponse ne soit pas une opinion.
+## First objective
 
-Mais un tableau reproductible.
+Reproduce the Wang & Hausken (2022) model exactly, then evaluate its predictive performance on post-2021 data.
 
+## Data source
 
+Historical Bitcoin prices are retrieved from the onfray.info API. One USD price per day is recorded from a consistent CoinMarketCap snapshot.
 
-Model Stability Score
+## Roadmap
 
-Wang ............. 81 %
+1. Build a reproducible dataset.
+2. Reproduce Wang & Hausken.
+3. Validate on unseen data.
+4. Compare with alternative models.
+5. Publish reproducible code and reports.
 
-Power Law ........ 92 %
+## Principles
 
-Rainbow .......... 54 %
+- Reproducibility first.
+- Data before opinions.
+- Quantitative evaluation.
